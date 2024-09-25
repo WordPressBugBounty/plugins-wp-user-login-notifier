@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress User Login Notifier\n"
+"POT-Creation-Date: 2023-04-10 21:26+0530\n"
+"PO-Revision-Date: 2023-04-10 21:26+0530\n"
+"Last-Translator: \n"
+"Language-Team: BuddyDev\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:50 admin/admin.php:118
+msgid "WP User Login Notifier"
+msgstr ""
+
+#: admin/admin.php:57
+msgid "Mail admin on login Failure?"
+msgstr ""
+
+#: admin/admin.php:58
+msgid ""
+"Admin will get notification when a user tries to login with wrong password."
+msgstr ""
+
+#: admin/admin.php:62 admin/admin.php:73 admin/admin.php:84 admin/admin.php:95
+msgid "Yes"
+msgstr ""
+
+#: admin/admin.php:63 admin/admin.php:74 admin/admin.php:85 admin/admin.php:96
+msgid "No"
+msgstr ""
+
+#: admin/admin.php:68
+msgid "Notify User on Login failure?"
+msgstr ""
+
+#: admin/admin.php:69
+msgid ""
+"If you enable, The User will get notification when te login attempt from "
+"their account fails."
+msgstr ""
+
+#: admin/admin.php:79
+msgid "Notify admin on successful login?"
+msgstr ""
+
+#: admin/admin.php:80
+msgid ""
+"Admin will get notification when a user logs in to the site successfully."
+msgstr ""
+
+#: admin/admin.php:90
+msgid "Notify User on successful login?"
+msgstr ""
+
+#: admin/admin.php:91
+msgid ""
+"If you enable, The User will get notification when they login successfully "
+"to the site."
+msgstr ""
+
+#: admin/admin.php:101
+msgid "Notify More Users?"
+msgstr ""
+
+#: admin/admin.php:102
+msgid "Please add a comma separated list of email you want to be notified."
+msgstr ""
+
+#: admin/admin.php:117
+msgid "WP User Login Notifer"
+msgstr ""
+
+#: admin/options-buddy/fields/image.php:40
+msgid "Remove"
+msgstr ""
+
+#: notifier/class-failed-login-notifier.php:36
+#: notifier/class-successful-login-notifier.php:40
+#, php-format
+msgid " from %s on %s"
+msgstr ""
+
+#: notifier/class-failed-login-notifier.php:40
+#, php-format
+msgid "Login failed for user {%s}"
+msgstr ""
+
+#: notifier/class-failed-login-notifier.php:47
+#, php-format
+msgid ""
+"Hi,\n"
+"There was a failed login attempt on your site %1$s.\n"
+"\n"
+"Details:\n"
+"\n"
+"User:       %2$s\n"
+"Link:       %9$s\n"
+"IP:         %3$s\n"
+"Browser:    %4$s\n"
+"Platform:   %5$s\n"
+"Referer:    %6$s\n"
+"Time:       %7$s\n"
+"User Agent: %8$s\n"
+"\n"
+"No need to worry or panic if this is just the first email. \n"
+"If you are getting it repeatedly, Please make sure that your user accounts "
+"are secured properly.\n"
+"\n"
+"You may want to install some WordPress security plugin to tighten the "
+"security.\n"
+"Recommendation: https://wordpress.org/plugins/tags/security\n"
+msgstr ""
+
+#: notifier/class-failed-login-notifier.php:100
+#: notifier/class-successful-login-notifier.php:100
+#, php-format
+msgid " from %1$s on %2$s"
+msgstr ""
+
+#: notifier/class-failed-login-notifier.php:105
+#, php-format
+msgid "Login failed for your account {%s}"
+msgstr ""
+
+#: notifier/class-failed-login-notifier.php:113
+#, php-format
+msgid ""
+"An attempt to login from your account [%1$s] on site %2$s failed.\n"
+"\t\t\t\n"
+"Access Details:-\n"
+"\n"
+"IP:         %3$s\n"
+"Browser:    %4$s\n"
+"Platform:   %5$s\n"
+"Referer     %6$s\n"
+"Time:       %7$s\n"
+"User Agent: %8$s\n"
+"Please make sure that you are using a secure password. if not, you should "
+"change it right now and inform the site administrator.\n"
+"\n"
+"%2$s Team\n"
+"%9$s\n"
+"\n"
+msgstr ""
+
+#: notifier/class-login-notifier-base.php:81
+msgid "Your Blog"
+msgstr ""
+
+#: notifier/class-successful-login-notifier.php:44
+#, php-format
+msgid "New sign-in notification for {%s}"
+msgstr ""
+
+#: notifier/class-successful-login-notifier.php:105
+#, php-format
+msgid "New sign-in from your account {%s}"
+msgstr ""
